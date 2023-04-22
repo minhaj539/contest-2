@@ -1,0 +1,57 @@
+
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+}
+
+h3{
+    margin :40px;
+}
+
+
+button, input, li{
+    border: 0.2px solid white;
+    width: 400px;
+    border-radius: 4px;
+    height:30px;
+    margin:10px 0px;
+}
+
+#ip{
+    display: flex;
+    padding: 50px 40px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+input{
+    width: 25vw;
+}
+
+#addUser{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#filter,#addUser{
+    width:100px;
+    height:30px;
+    background-color:white;
+    color: black;
+    
+}
+
+#filter,#select{
+   margin-left:40px;
+}
+li{
+    margin: 20px 0px;
+    border: 0.5px solid white;
+    text-align: start;
+    padding: 8px 8px;
+
+}

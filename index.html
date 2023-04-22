@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <link rel="stylesheet" href="./style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h3>Filter ui cards via their profession</h3>
+
+    <select name="select" id="select" >
+        <option> Profession</option>
+        <option>developer</option>
+        <option>admin</option>
+    </select>
+
+    <ul id="list" style="list-style-type: none;">  
+    </ul>
+    <button id="filter">Filter</button>
+
+    <div id="ip">
+
+        <div>
+            <label for="name">Enter Name</label> <br>
+            <input type="text" id="name" required>
+        </div>
+
+        <div>
+            <label for="prof">Enter Profession</label> <br>
+            <input type="text" id="prof" required>
+        </div>
+
+
+        <div><label for="age"> Enter Age</label> <br>
+            <input type="number" id="age" required>
+        </div>
+    </div>
+    <button id="addUser">Add User</button>
+
+    <script src="./scr.js"></script>
+</body>
+
+</html>
